@@ -11,4 +11,9 @@ class main extends CI_Controller {
 		$this->load->view('main');
 		$this->load->view('footer/footer');
 	}
+	public function agregar(){
+		$this->load->view('headers/librerias');
+		$this->load->view('agregar');
+		$this->load->view('footer/footer');
+	}
 }
